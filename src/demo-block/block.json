@@ -1,0 +1,11 @@
+{
+    "apiVersion": 2,
+    "title": "Omar's: Demo block",
+    "name": "omars-plugins/demo-block",
+    "keywords": [ "demo" ],
+    "category": "layout",
+    "icon": "universal-access-alt",
+    "editorScript": "file:./../../build/omars-demo-block-edit.js",
+    "script": [ "file:./../../build/omars-demo-web-component.js", "demo-component-view-script" ],
+    "render": "file:./render-cb.php"
+}

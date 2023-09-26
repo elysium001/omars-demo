@@ -1,0 +1,33 @@
+{
+  "name": "omars-demo",
+  "version": "1.0.0",
+  "description": "This is a demo of a basic gutenberg-block development.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "preinstall": "composer install",
+    "test:unit": "wp-scripts test-unit-js",
+    "test:e2e": "wp-scripts test-e2e",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build --webpack-copy-php"
+  },
+  "files": [
+    "*.php",
+    "vendor",
+    "build"
+  ],
+  "author": "Omar Serrano",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^26.13.0",
+    "browser-sync-webpack-plugin": "^2.3.0"
+  },
+  "dependencies": {
+    "lit": "^2.8.0"
+  }
+}
