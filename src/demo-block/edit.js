@@ -4,7 +4,7 @@ import { __ } from '@wordpress/i18n';
 import { useBlockProps, InspectorControls } from '@wordpress/block-editor';
 import { TextControl, ColorPicker } from '@wordpress/components';
 
-// Register the block
+// Register block with name, attributes, and save and edit functions.
 registerBlockType('omars-plugins/demo-block', {
     attributes: {
         title: {
