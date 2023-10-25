@@ -1,9 +1,10 @@
 {
   "apiVersion": 2,
-  "title": "Omar's: Demo block",
+  "title": "Omar's: Demo block 123",
   "name": "omars-plugins/demo-block",
   "keywords": [
-    "demo"
+    "demo",
+    "cool block"
   ],
   "category": "layout",
   "icon": "universal-access-alt",

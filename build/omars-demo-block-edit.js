@@ -144,7 +144,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// Register the block
+// Register block with name, attributes, and save and edit functions.
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__.registerBlockType)('omars-plugins/demo-block', {
   attributes: {
     title: {
