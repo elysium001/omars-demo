@@ -7,20 +7,12 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 // extend wp-scripts config
 module.exports = {
   ...wpConfig,
-  entry: {
-    'omars-demo-block-edit': './src/demo-block/edit',
-    'omars-demo-web-component': './src/demo-block/demo-web-component',
-  },
-  output: {
-    ...wpConfig.output,
-    filename: '[name].js',
-  },
   plugins: [
     ...wpConfig.plugins,
     new BrowserSyncPlugin({
-      host: 'omars-local.vipdev.lndo.site',
+      host: 'cool-blog.wp-vip-omar-local.vipdev.lndo.site',
       port: 8887,
-      proxy: 'http://omars-local.vipdev.lndo.site/', //docker container host
+      proxy: 'https://cool-blog.wp-vip-omar-local.vipdev.lndo.site/', //docker container host
       open: false
     }),
   ]

@@ -1,16 +1,16 @@
 {
-  "apiVersion": 2,
   "title": "Omar's: Demo block 123",
   "name": "omars-plugins/demo-block",
   "keywords": [
     "demo",
     "cool block"
   ],
-  "category": "layout",
-  "icon": "universal-access-alt",
-  "editorScript": "file:./../../build/omars-demo-block-edit.js",
+  "editorScript": [
+    "file:./edit.js",
+    "demo-block-edit-script"
+  ],
   "script": [
-    "file:./../../build/omars-demo-web-component.js",
+    "file:./demo-web-component.js",
     "demo-component-view-script"
   ],
   "render": "file:./render-cb.php"
